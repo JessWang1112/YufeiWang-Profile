@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yufei Wang · Ecology Portfolio</title>
+  <meta name="description" content="Ecology portfolio of Yufei Wang — field research, community action and writing on how people and animals live together.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%233DA964'/%3E%3Ccircle cx='32' cy='32' r='12' fill='%23FFC93C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#hero"><span class="brand-dot"></span>Yufei Wang <small>· Ecology</small></a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#pets">Pets</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-primary btn-contact" href="#contact">Contact</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= 1. HERO ================= -->
+    <section class="hero" id="hero">
+      <div class="hero-blob-blue" aria-hidden="true"></div>
+      <div class="container">
+        <img class="hero-flock" src="assets/flock-birds.png" alt="A flock of birds in flight" aria-hidden="true">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="chip chip-yellow hero-eyebrow">Portfolio · Undergraduate applicant — Ecology</span>
+            <h1 id="heroTitle">People and animals, <em>living together</em> — at every scale.</h1>
+            <p class="hero-sub">From the bird on my shoulder to markets, cities and mountain reserves: field research, community action, film and writing on how our lives meet.</p>
+            <div class="hero-id">
+              <span class="chip">Urban ecology observer</span>
+              <span class="chip">Field researcher</span>
+              <span class="chip chip-blue">Science writer &amp; editor</span>
+              <span class="chip">Documentary maker</span>
+            </div>
+            <div class="hero-cta">
+              <a class="btn btn-accent" href="#map">Explore my journey</a>
+              <a class="btn btn-ghost" href="#about">About me</a>
+            </div>
+          </div>
+          <figure class="hero-media reveal">
+            <img src="assets/hero-birds.jpg" alt="Two lovebirds huddled together in their cage">
+            <figcaption>Where it all began — <a href="birds.html">me &amp; the birds</a></figcaption>
+          </figure>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>300+</b><span>questionnaires collected</span></div>
+          <div class="stat"><b>17.5h</b><span>field surveys walked</span></div>
+          <div class="stat"><b>70+</b><span>articles led as editor-in-chief</span></div>
+          <div class="stat"><b>2</b><span>academic awards</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. SCALE / MAINLINE ================= -->
+    <section class="section tint" id="map">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">The mainline</span>
+          <h2>One question, five scales</h2>
+          <p>Everything on this site grows from a single question: how can people and animals share this planet? I have followed it from my own birds to national policy debates.</p>
+        </div>
+        <div class="scale reveal">
+          <div class="scale-node">
+            <div class="scale-dot">01</div>
+            <div>
+              <h3>One Bird</h3>
+              <p>It started with a parrot on my shoulder — a childhood of keeping and watching birds.</p>
+              <a class="scale-link" href="birds.html">Me &amp; the birds</a>
+            </div>
+          </div>
+          <div class="scale-node">
+            <div class="scale-dot">02</div>
+            <div>
+              <h3>One Market</h3>
+              <p>A field study of China's exotic pet market — 100+ questionnaires and a 10,000+ word paper.</p>
+              <a class="scale-link" href="#pets">See the study</a>
+            </div>
+          </div>
+          <div class="scale-node">
+            <div class="scale-dot">03</div>
+            <div>
+              <h3>One City</h3>
+              <p>Adoption services, public science and bird-collision surveys in my own city.</p>
+              <a class="scale-link" href="#community">See the city</a>
+            </div>
+          </div>
+          <div class="scale-node">
+            <div class="scale-dot">04</div>
+            <div>
+              <h3>One Reserve</h3>
+              <p>A field week at a conservation station in the Qinling Mountains, between people and forest.</p>
+              <a class="scale-link" href="#san-guan-miao">See the reserve</a>
+            </div>
+          </div>
+          <div class="scale-node">
+            <div class="scale-dot">05</div>
+            <div>
+              <h3>One Policy</h3>
+              <p>An essay on discount rates and long-term environmental policy.</p>
+              <a class="scale-link" href="#john-locke">Read the essay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. PETS ================= -->
+    <section class="section" id="pets">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Pets</span>
+          <h2>How people keep, choose and care for animals</h2>
+          <p>Pets are where most of us first meet the animal world — so this is where I started: a market study, an adoption proposal, and a play about the bonds we form.</p>
+        </div>
+
+        <!-- flagship 1 : exotic pet market -->
+        <article class="flagship reveal" id="exotic-market">
+          <div class="flagship-head" tabindex="0" role="button" aria-expanded="false">
+            <div class="flagship-index">01</div>
+            <div class="flagship-body">
+              <div class="flagship-meta">
+                <span class="chip">Field study</span>
+                <span class="chip chip-yellow">CTB · National round</span>
+                <span class="chip chip-blue">100+ questionnaires</span>
+              </div>
+              <h3>China's Exotic Pet Market</h3>
+              <p class="flagship-tag">What happens when millions of people keep animals that no one planned for?</p>
+            </div>
+            <div class="flagship-toggle" aria-hidden="true">+</div>
+          </div>
+          <div class="flagship-detail">
+            <div class="flagship-media">
+              <figure>
+                <img src="assets/exotic-poster.png" alt="Research poster of the exotic pet market field study" loading="lazy">
+                <figcaption>Main visual of the study — a market most people only see from the outside.</figcaption>
+              </figure>
+              <div class="dual-thumbs">
+                <figure>
+                  <img src="assets/exotic-forum.jpg" alt="Presenting the study poster at the CTB national forum" loading="lazy">
+                  <figcaption>With the team at the national forum, presenting the study poster.</figcaption>
+                </figure>
+                <figure>
+                  <img src="assets/exotic-stall.jpg" alt="A market stall documented during the field survey" loading="lazy">
+                  <figcaption>Inside the market — one stall among many we documented.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="field-grid">
+              <div class="field">
+                <span class="field-label">Problem</span>
+                <p>China's exotic pet market is fast-growing, fragmented and only loosely regulated. How do consumer motives and market conditions shape the decision to keep an exotic animal?</p>
+              </div>
+              <div class="field">
+                <span class="field-label">Method</span>
+                <p>100+ questionnaires, 2 in-depth interviews and market observation — set against a comparison with markets abroad — written up as a 10,000+ word research paper.</p>
+              </div>
+              <div class="field">
+                <span class="field-label">Output</span>
+                <p>A research paper that advanced to the CTB national round, mapping the demand side of a market built on non-domesticated species.</p>
+              </div>
+              <div class="field">
+                <span class="field-label">Reflection</span>
+                <p>Change begins with understanding demand, not blaming the buyer. The study made me ask what a better path into pet ownership could look like — <a href="#adoption">see the adoption proposal below</a>.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="cat-grid">
+          <!-- adoption proposal -->
+          <article class="cat-card reveal" id="adoption">
+            <div class="thumb">
+              <img src="assets/adoption-event.jpg" alt="Offline adoption education activity at a campus event in Xi'an" loading="lazy">
+            </div>
+            <h3>A pre- and post-adoption service proposal</h3>
+            <div class="meta">
+              <span class="chip chip-yellow">200+ questionnaires</span>
+              <span class="chip">2 anonymous shop interviews</span>
+              <span class="chip chip-blue">IPET</span>
+            </div>
+            <p>Education before adoption, support after it. A proposal to help young adopters in Xi'an make informed, lasting commitments — including a campus event and the IPET public account, written up in a 20,000+ word paper that reached the CTB top 10% and advanced to the global round.</p>
+            <a class="more" href="#works">See the paper in Works →</a>
+          </article>
+
+          <!-- iowa -->
+          <article class="cat-card reveal">
+            <h3>Playwriting at Iowa Young Writers' Studio</h3>
+            <div class="meta">
+              <span class="chip">Iowa Young Writers' Studio</span>
+              <span class="chip chip-blue">6-week online studio</span>
+            </div>
+            <p>A six-week playwriting studio where I wrote a first script about the quiet bonds between people and their pets — the same relationships I had been studying in the field.</p>
+            <a class="more" href="#works">See the writing in Works →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. COMMUNITY ================= -->
+    <section class="section tint" id="community">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="eyebrow">Community</span>
+          <h2>Where people and animals actually meet</h2>
+          <p>Fieldwork, interviews and public science in real communities — from the glass walls of a city to a field station in the Qinling Mountains.</p>
+        </div>
+
+        <!-- flagship 2 : bird collision -->
+        <article class="flagship reveal" id="bird-collision">
+          <div class="flagship-head" tabindex="0" role="button" aria-expanded="false">
+            <div class="flagship-index">02</div>
+            <div class="flagship-body">
+              <div class="flagship-meta">
+                <span class="chip">Citizen science</span>
+                <span class="chip chip-yellow">Northwest China · Spring</span>
+                <span class="chip chip-blue">17.5h field survey</span>
+              </div>
+              <h3>City Bird Collision Line</h3>
+              <p class="flagship-tag">Three months of early-morning routes through my city, recording where birds meet glass.</p>
+            </div>
+            <div class="flagship-toggle" aria-hidden="true">+</div>
+          </div>
+          <div class="flagship-detail">
+            <div class="field-grid">
+              <div class="field">
+                <span class="field-label">Problem</span>
+                <p>Birds collide with glass we barely see. In Northwest China, where do collisions actually happen — and what patterns can citizen science reveal?</p>
+              </div>
+              <div class="field">
+                <span class="field-label">Method</span>
+                <p>A spring survey across three months in Xi'an: 17.5 hours of field patrols and 30+ collision records, contributed to a national citizen science project.</p>
+              </div>
+              <div class="field">
+                <span class="field-label">Output</span>
+                <p>A dataset of collision points and a volunteer completion certificate — one city's contribution to a national picture.</p>
+                <div class="evidence">
+                  <img src="assets/birdwatch-cert.jpg" alt="Bird collision survey completion certificate" loading="lazy">
+                  <p>Volunteer certificate for the bird collision citizen science survey.</p>
+                </div>
+              </div>
+              <div class="field">
+                <span class="field-label">Reflection</span>
+                <p>Every data point is a preventable accident. Recording the problem made me ask how prevention could be designed — which grew into a poster solution, <a href="#works">see the ISLP work below</a>.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- san guan miao dual -->
+        <article class="dual reveal" id="san-guan-miao">
+          <div class="dual-media">
+            <div class="dual-main">
+              <img src="assets/qinling-field.jpg" alt="Fieldwork at the San Guan Miao conservation station in the Qinling Mountains" loading="lazy">
+              <span class="stamp">August 2025 · one week</span>
+            </div>
+            <div class="dual-thumbs">
+              <figure>
+                <img src="assets/sanguanmiao-gate.jpg" alt="At the gate of the Foping management branch, Giant Panda National Park" loading="lazy">
+                <figcaption>Arriving at the station with the team.</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/sanguanmiao-selfie.jpg" alt="A panda mascot held up in front of the Qinling forest" loading="lazy">
+                <figcaption>A panda moment at the visitor centre.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="dual-body">
+            <span class="eyebrow">Field notes</span>
+            <h3>San Guan Miao: one week at a Qinling field station</h3>
+            <p class="lead">How does a reserve balance conservation with the livelihoods of the people living around it?</p>
+            <p>I joined patrols and interviewed the people who make protection work day by day — station staff, villagers and student volunteers — in 5+ interviews.</p>
+            <p>I carried a camera the whole time. The result is a 15-minute documentary on people, forest and the work in between.</p>
+            <div class="dual-facts">
+              <span class="chip">5+ interviews</span>
+              <span class="chip chip-yellow">Patrol fieldwork</span>
+              <span class="chip chip-blue">15-min documentary</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- MJ science -->
+        <article class="cat-card reveal" style="margin-top:28px;">
+          <h3>MJ Frontier (MJ Science): editing public science</h3>
+          <div class="meta">
+            <span class="chip chip-yellow">Editor-in-Chief &amp; account lead since Mar 2026</span>
+            <span class="chip">Joined Aug 2025</span>
+            <span class="chip chip-blue">70+ articles on the account</span>
+          </div>
+          <p>Since March 2026 I lead the account as editor-in-chief and overall lead — organising schedules, review and layout for the team. Most of the 70+ articles on the account come from contributors; together we have grown it to 550+ followers, with a single article reaching 6,000 likes — turning careful science into reading people actually finish.</p>
+          <a class="more" href="#works">See the writing in Works →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= 5. WORKS ================= -->
+    <section class="section" id="works">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Works</span>
+          <h2>Posters, papers, film and public writing</h2>
+          <p>The outputs that came out of the fieldwork — and the standalone pieces that sharpened how I think and write about ecology.</p>
+        </div>
+
+        <!-- flagship 3 : ISLP -->
+        <article class="flagship reveal" id="islp-poster">
+          <div class="flagship-head" tabindex="0" role="button" aria-expanded="false">
+            <div class="flagship-index">03</div>
+            <div class="flagship-body">
+              <div class="flagship-meta">
+                <span class="chip">ISLP 2026 · China region</span>
+                <span class="chip chip-yellow">High school · First Prize</span>
+                <span class="chip chip-blue">Summer season</span>
+              </div>
+              <h3>BCAS — Bird Collision Avoidance System</h3>
+              <p class="flagship-tag">Field data from the streets, turned into a prevention system on a single sheet.</p>
+            </div>
+            <div class="flagship-toggle" aria-hidden="true">+</div>
+          </div>
+          <div class="flagship-detail">
+            <div class="flagship-media">
+              <figure>
+                <img src="assets/islp-poster.png" alt="ISLP 2026 BCAS poster — First Prize, high school category" loading="lazy">
+                <figcaption>The BCAS poster — ISLP 2026 poster competition, First Prize in the high school category.</figcaption>
+              </figure>
+            </div>
+            <div class="field-grid">
+              <div class="field">
+                <span class="field-label">Problem</span>
+                <p>Bird–window collisions stay invisible until they are counted. How do you make prevention visible — and buildable?</p>
+              </div>
+              <div class="field">
+                <span class="field-label">Method</span>
+                <p>A Bird Collision Avoidance System concept, translating collision data from my field surveys into a visual, technical proposal.</p>
+              </div>
+              <div class="field">
+                <span class="field-label">Output</span>
+                <p>First Prize, high school category — 2026 ISLP poster competition, China region, summer season.</p>
+                <div class="evidence">
+                  <img src="assets/bcas-chart.png" alt="Design chart behind the BCAS poster" loading="lazy">
+                  <p>The design chart behind the BCAS poster.</p>
+                </div>
+              </div>
+              <div class="field">
+                <span class="field-label">Reflection</span>
+                <p>A poster is an argument in one frame — the loop of my five scales: from watching one bird, to counting a city's collisions, to proposing one system. <a href="#map">Back to the mainline →</a></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- shelf -->
+        <div class="shelf reveal">
+          <a class="shelf-item" href="#pets">
+            <span class="shelf-type">Research paper</span>
+            <span class="shelf-main">
+              <h3>China's exotic pet market</h3>
+              <p>10,000+ word field study paper · CTB national round.</p>
+            </span>
+            <span class="shelf-go">Go →</span>
+          </a>
+          <a class="shelf-item" href="#adoption">
+            <span class="shelf-type">Research paper</span>
+            <span class="shelf-main">
+              <h3>Adoption service proposal</h3>
+              <p>20,000+ word paper · CTB top 10%, global round · IPET.</p>
+            </span>
+            <span class="shelf-go">Go →</span>
+          </a>
+          <div class="shelf-item" id="john-locke">
+            <span class="shelf-type">Essay</span>
+            <span class="shelf-main">
+              <h3>John Locke Essay Competition</h3>
+              <p>What discount rate should long-term environmental policy use? An argument across economics and ethics.</p>
+            </span>
+          </div>
+          <a class="shelf-item" href="#san-guan-miao">
+            <span class="shelf-type">Documentary</span>
+            <span class="shelf-main">
+              <h3>Qinling — 15 minutes</h3>
+              <p>People, forest and the work in between — filmed over a field week at a conservation station.</p>
+            </span>
+            <span class="shelf-go">Go →</span>
+          </a>
+          <div class="shelf-item">
+            <span class="shelf-type">Public science</span>
+            <span class="shelf-main">
+              <h3>MJ Frontier (MJ Science) · Editor-in-Chief &amp; account lead</h3>
+              <p>Leading a team account with 70+ contributor articles, 550+ followers; a single article reaching 6,000 likes.</p>
+            </span>
+          </div>
+          <div class="shelf-item">
+            <span class="shelf-type">Certificate</span>
+            <span class="shelf-main">
+              <h3>Cornell biodiversity education</h3>
+              <p>A 25-hour course that grew into an outreach and field-survey plan on bird collisions for high school students.</p>
+            </span>
+            <a class="shelf-go" href="assets/cornell-certificate.pdf" target="_blank" rel="noopener">PDF →</a>
+          </div>
+          <div class="shelf-item">
+            <span class="shelf-type">Writing</span>
+            <span class="shelf-main">
+              <h3>Confess 2025 <small>— Select Award</small></h3>
+              <p>Confessions Literature · Confess 2025: The Youth Voices Writing Challenge — prose / personal essay.</p>
+            </span>
+          </div>
+          <div class="shelf-item">
+            <span class="shelf-type">Writing</span>
+            <span class="shelf-main">
+              <h3>Iowa Young Writers' Studio</h3>
+              <p>Six-week playwriting studio — a first draft on people and their pets.</p>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 6. TIMELINE ================= -->
+    <section class="section tint" id="journey">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Journey</span>
+          <h2>A timeline of doing</h2>
+          <p>Two years, five scales, one direction.</p>
+        </div>
+        <div class="timeline reveal">
+          <div class="t-year"><strong>2025</strong></div>
+          <div class="t-item">
+            <h4>CTB season — adoption proposal</h4>
+            <p>200+ questionnaires, 2 anonymous shop interviews, IPET and a campus event in Xi'an · top 10% → global round.</p>
+          </div>
+          <div class="t-item">
+            <h4>August — joined MJ Frontier (MJ Science)</h4>
+            <p>Joined the public science team.</p>
+          </div>
+          <div class="t-item">
+            <h4>August — San Guan Miao field week</h4>
+            <p>Patrols and 5+ interviews in the Qinling Mountains · a 15-minute documentary.</p>
+          </div>
+          <div class="t-item">
+            <h4>Confess 2025 — Select Award</h4>
+            <p>Prose / personal essay, The Youth Voices Writing Challenge.</p>
+          </div>
+
+          <div class="t-year"><strong>2026</strong></div>
+          <div class="t-item">
+            <h4>Spring — bird collision citizen science</h4>
+            <p>Three months in a Northwest China city · 17.5 hours of field surveys · 30+ records.</p>
+          </div>
+          <div class="t-item">
+            <h4>March — Editor-in-Chief &amp; account lead, MJ Frontier</h4>
+            <p>Overall responsibility for schedules, review and layout across the team.</p>
+          </div>
+          <div class="t-item">
+            <h4>CTB season — exotic pet market study</h4>
+            <p>100+ questionnaires, 2 in-depth interviews, a China-versus-abroad comparison · national round.</p>
+          </div>
+          <div class="t-item">
+            <h4>ISLP 2026 — poster First Prize</h4>
+            <p>BCAS poster, high school category, China region, summer season.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. ABOUT + CONTACT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">About</span>
+          <h2>Yufei Wang</h2>
+        </div>
+        <div class="about-grid">
+          <figure class="about-photo reveal">
+            <img src="assets/about-portrait.jpg" alt="Portrait of Yufei Wang" loading="lazy">
+            <figcaption>Ecology applicant · Xi'an, China</figcaption>
+          </figure>
+          <div class="about-body reveal">
+            <h3>Why ecology</h3>
+            <p>I apply to university as an ecology student because I cannot stop noticing how people and animals share space. It started with <a href="birds.html">keeping birds</a> — and it kept growing: a market study, collision surveys in my own city, a week at a Qinling field station, essays on environmental policy.</p>
+            <p>Everything on this site is one long attempt to understand that sharing — <strong>with research, action, film and writing</strong> — and to make it visible to others.</p>
+            <div class="skill-list" data-marquee>
+              <div class="skill-track">
+                <div class="skill-group">
+                  <span class="chip">Field observation</span>
+                  <span class="chip">Survey design</span>
+                  <span class="chip chip-blue">Data organisation</span>
+                  <span class="chip">Interviews</span>
+                  <span class="chip chip-yellow">Documentary film</span>
+                  <span class="chip">Science editing</span>
+                  <span class="chip chip-blue">Academic writing</span>
+                  <span class="chip">Community action</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card reveal" id="contact" style="margin-top:48px;">
+          <div>
+            <h3>Get in touch</h3>
+            <p>Questions about my work, the data, or the birds I keep — I am happy to talk.</p>
+            <!-- contact email: 18192836578@163.com -->
+            <a class="contact-mail" href="mailto:18192836578@163.com">18192836578@163.com</a>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">Download résumé (PDF)</a>
+            <a class="btn btn-ghost" href="assets/cornell-certificate.pdf" target="_blank" rel="noopener">Cornell certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <a class="brand" href="#hero"><span class="brand-dot"></span>Yufei Wang <small>· Ecology</small></a>
+      <div class="footer-links">
+        <a href="birds.html">Me &amp; the birds</a>
+        <a href="#pets">Pets</a>
+        <a href="#community">Community</a>
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+      </div>
+      <span class="footer-note">© <span id="year">2026</span> Yufei Wang · Ecology portfolio</span>
+    </div>
+  </footer>
+
+  <script src="main.js?v=20260927b"></script>
+</body>
+</html>
